@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - TV Controller -remote</title>
+  <meta name="viewport" content="width=520"><link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="wrapper">
+  <div class="tv-space">
+    <div class="tv-border">
+      <div class="tv-container">
+        <iframe id="video" width="480" height="320" src="https://www.youtube.com/embed/videoseries?list=PLl7dGaEL2MNwedqcCwIEFbAlTzC8YWvEX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="tv-nav lampshade"></div>
+    </div>
+    <div class="tv-leg"></div>
+    <div class="tv-step"></div>
+  </div>
+
+  <div class="pult">
+    <div class="block title lampshade"></div>
+    <div class="block block-navigate">
+      <button type="button" class="btn top-navigate power-off" id="power-off"></button>
+    </div>
+    <div class="block block-channel">
+      <button type="button" data-item="ZWuzH0fW8l0" class="btn channel cnl-namber active-channel">+</button>
+      <button type="button" data-item="fLfDDQ7rk5s" class="btn channel cnl-namber active-channel">-</button>
+
+    </div>
+    <div class="block block-vol_ch">
+      <button type="button" class="btn vol_ch text dwork">VOL +</button>
+      <button type="button" class="btn vol_ch text dwork">VOL -</button>
+    </div>
+    <div class="block block-round">
+      <button type="button" class="btn round play" id="play-button"></button>
+
+      <button type="button" class="btn round pause" id="pause-button"></button>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
